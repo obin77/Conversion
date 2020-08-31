@@ -41,6 +41,7 @@
             this.txtbinaire = new System.Windows.Forms.TextBox();
             this.txthexadecimal = new System.Windows.Forms.TextBox();
             this.txtDecimal = new System.Windows.Forms.TextBox();
+            this.btnSortie = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -160,11 +161,21 @@
             this.txtDecimal.Size = new System.Drawing.Size(100, 20);
             this.txtDecimal.TabIndex = 8;
             // 
+            // btnSortie
+            // 
+            this.btnSortie.Location = new System.Drawing.Point(642, 361);
+            this.btnSortie.Name = "btnSortie";
+            this.btnSortie.Size = new System.Drawing.Size(75, 23);
+            this.btnSortie.TabIndex = 9;
+            this.btnSortie.Text = "Sortie ";
+            this.btnSortie.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnSortie);
             this.Controls.Add(this.txtDecimal);
             this.Controls.Add(this.txthexadecimal);
             this.Controls.Add(this.txtbinaire);
@@ -197,6 +208,7 @@
         private System.Windows.Forms.TextBox txtbinaire;
         private System.Windows.Forms.TextBox txthexadecimal;
         private System.Windows.Forms.TextBox txtDecimal;
+        private System.Windows.Forms.Button btnSortie;
     }
 }
 
